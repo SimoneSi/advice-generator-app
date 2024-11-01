@@ -21,7 +21,7 @@ body{
     border-radius: 10px;
 }
 
-.card .identificao-conselho{
+.card .advice-id{
     color: var(--advice-dice-color);
     margin: 30px;
     font-size: 14px;
@@ -29,14 +29,14 @@ body{
     letter-spacing: 5px;
 }
 
-.card .descricao-conselho{
+.card .advice-description{
     color: var(--text-color);
     font-size: 23px;
     padding: 23px;
     text-align: center;
 }
 
-.card .atualizador-conselho{
+.card .advice-update{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -45,7 +45,7 @@ body{
     background-color: var(--advice-dice-color);
 }
 
-.card .atualizador-conselho:hover{
+.card .advice-update:hover{
     cursor: pointer;
     box-shadow: 0 2px 15px var(--advice-dice-color);
 }
